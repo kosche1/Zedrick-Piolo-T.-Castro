@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      body {
+        background-color: lightgray;
+
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+      }
+
+      .banner {
+        /*background: rgba(46, 137, 255, 0.8)*/
+        background-image: url("pat1.jpg");
+        color: rgba(0, 0, 0, 0.85);
+
+        height: 10em;
+      }
+
+      .bot {
+        background-image: url("pat1.jpg");
+        height: 6em;
+
+      }
+      .bot > h3 {
+        text-align: center;
+        padding-top: 35px;
+        color: white;
+      }
+
+      .banner > menu {
+        text-align: right;
+      }
+      .menu {
+        position: sticky;
+        top: 0;
+        padding: 40px;
+        background-color: #140f00;
+        /*     #7847ee*/
+      }
+     
+      a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+      }
+      .menu > ul > li {
+        text-decoration: none;
+        list-style: none;
+        
+      }
+      .menu > ul > li :hover{
+        
+        background-color: burlywood;
+        padding: 5px;
+        border-radius: 10px;
+        transition: 0.5s;
+      }
+      .menu > ul {
+        display: flex;
+
+        justify-content: center;
+        gap: 30px;
+      }
+
+      .hom {
+        text-align: center;
+
+        height: 100vh;
+      }
+
+      .portfolio {
+        text-align: center;
+        
+        background-image: url("conba.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+       
+      }
+      .portfolio > .about_home {
+        
+        padding-bottom: 60px;
+        padding-top: 100px;
+        color: white;
+        background:  linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        );
+      }
+      .about_home > h1 {
+        padding: 80px;
+        font-size: 65px;
+        
+      }
+      .portfolio > .about_home > p {
+        width: 50%;
+        margin: auto;
+        font-size: 20px;
+        padding-bottom: 300px;
+      }
+
+      /*    dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd*/
+
+      .act {
+        margin: 0;
+        
+        display: flex;
+        
+        padding: 60px;
+        background-repeat: no-repeat;
+       
+        background:  linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ), url("conba.jpg");
+        background-size: cover;
+        color: white;
+      }
+      .container {
+        display: flex;
+
+        margin-top: 150px;
+        border-radius: 10px;
+        padding: 50px;
+        border: 5px solid black;
+      }
+      .contain1 {
+        display: flex;
+        justify-content: center;
+        width: 25em;
+        padding: 40px;
+        border-radius: 20px;
+        height: 70%;
+        
+
+        margin-top: 60px;
+        margin-left: 50px;
+        background-color: rgba(0, 0, 0, 0.6);
+      }
+      /* 	SECOND PAGE*/
+      .contain2 {
+        display: flex;
+        justify-content: center;
+        width: 25em;
+        padding: 20px;
+        height: 70%;
+        border: 5px solid black;
+        margin-top: 60px;
+        margin-left: 50px;
+        background-color: rgba(0, 0, 0, 0.6);
+      }
+
+      .image1 {
+        margin: auto;
+      }
+      .image1 > img {
+        border-radius: 20%;
+        /*margin-left: 100px;
+    margin-top: 50px;*/
+        margin: auto;
+      }
+      .image2 {
+        margin: auto;
+      }
+      .image2 > img {
+        border-radius: 20%;
+        /*margin-left: 100px;
+    margin-top: 50px;*/
+        margin: auto;
+      }
+      .act > h1 {
+      
+        font-size: 40px;
+        
+        margin-top: 60px;
+        
+      }
+      table {
+        margin: auto;
+      }
+      a {
+        color: white;
+      }
+      /* 	THIRD PAGE*/
+      .bio {
+        margin: 0;
+
+        display: flex;
+
+        height: 90vh;
+        background:  linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ), url("conba.jpg");
+  
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+      }
+      .ime {
+      
+        margin-top: 5vh;
+        
+      }
+      .ime > img {
+        border-radius: 50%;
+        position:inherit;
+      }
+      .contain3 {
+      
+        display: flex;
+        width: 70%;
+        padding: 20px;
+        height: 70vh;
+        border-radius: 20px;
+        border: 5px solid black;
+        margin-top: 10vh;
+        margin-left: 35vh;
+        background-color: rgba(0, 0, 0, 0.6);
+      }
+      .me{
+        padding-left: 70px;
+      }
+      .me > h2 {
+        margin-top: 30px;
+        margin-bottom: 50px;
+        font-size: 60px;
+
+      }
+      .me > p {
+        word-spacing: 5px;
+        font-size: 21px;
+        width: 70%;
+       
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="banner">
+      <div class="colt">
+        <img
+          src="cool2.png"
+          width="600"
+          height="160"
+          alt="WebDesign"
+        />
+      </div>
+    </div>
+    <nav class="menu">
+      <ul>
+        <li>
+          <a href="#home"><h1>HOME</h1></a>
+        </li>
+        <li>
+          <a href="#about1"><h1>ACTIVITY</h1></a>
+        </li>
+        <li>
+          <a href="#about2"><h1>ABOUT ME</h1></a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="portfolio" id="home">
+      <div class="about_home">
+        <h1>HI, I'm ZEDRICK</h1>
+        <p>
+          I'm a student of front end developer in web development. I've worked
+          on a variety of projects for clients in the retail, travel, and
+          healthcare industries. I'm passionate about creating great user
+          experiences and have a strong understanding of usability and
+          accessibility standards.
+        </p>
+      </div>
+    </section>
+    <!-- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| -->
+    <section class="act" id="about1">
+       <h1>ACTVITIES</h1>
+      <div class="container">
+        <div class="contain1">
+          <div class="Content1">
+            <div class="image1">
+              <a href="sch.html"
+                ><img
+                  src="ind.jpg"
+                  width="400"
+                  height="300"
+              /></a>
+            </div>
+            <table style="font-family: sans-serif">
+              <tr>
+                <td>Title:</td>
+                <th>Schedule</th>
+              </tr>
+
+              <tr>
+                <td>Detail:</td>
+                <th>Castro, Zedrick Piolo Sched</th>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="contain1">
+          
+          <div class="Content1">
+            <div class="image1">
+              <a href="dac.html"
+                ><img
+                  src="subj.jpg"
+                  width="400"
+                  height="300"
+              /></a>
+            </div>
+            <table style="font-family: sans-serif">
+              <tr>
+                <td>Title:</td>
+                <th>Subject</th>
+              </tr>
+
+              <tr>
+                <td>Detail:</td>
+                <th>Subjects Enrolled</th>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bio" id="about2">
+      <div class="contain3">
+        <div class="me">
+          <h2>About</h2>
+
+          <p>
+            I'm a student of front end developer in web development. I've worked
+            on a variety of projects for clients in the retail, travel, and
+            healthcare industries. I'm passionate about creating great user
+            experiences and have a strong understanding of usability and
+            accessibility standards.
+            <br>
+            <br>
+            <br>
+            
+            Age: 23
+            <br>
+            Gender: Male
+            <br>
+            Workplace: DCCP
+            <br>
+            Contact: 095 0717 4544
+            <br>
+            Email: zedrickpiolocastro@gmail.com
+            <br>
+
+
+
+          </p>
+        </div>
+        <div class="ime" >
+          <img
+            src="me.jpg"
+            height="390"
+            width="380"
+            style="border: 2px solid wheat;"
+          />
+        </div>
+      </div>
+      
+    </section>
+    <footer class="bot"><h3>Copyright @ 2023 Zedrick Castro</h3></footer>
+  </body>
+</html>
