@@ -215,8 +215,8 @@ margin-top: 50px;*/
     height: 70vh;
     border-radius: 20px;
     border: 5px solid black;
-    margin-top: 10vh;
-    margin-left: 35px;
+    margin-top: 10em;
+    margin-left: 35em;
     background-color: rgba(0, 0, 0, 0.6);
   }
   .me{
@@ -236,8 +236,6 @@ margin-top: 50px;*/
   }
 @media only screen and (max-width: 768px) {
 
-  .contain3 {
-    width: 400px;
-  }
+ 
 
 }
